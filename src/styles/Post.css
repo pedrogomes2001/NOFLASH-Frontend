@@ -1,0 +1,80 @@
+.sm-80{
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.sm-80:hover{
+    transform: scale(1);
+}
+
+.post-comment-count{
+    color: lightblue;
+}
+
+.btn-conatiner{
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+}
+
+.btn-conatiner > :last-child{
+    margin-left: 1rem;
+}
+
+.btn-conatiner > :last-child:hover{
+    background-color: red;
+    color: white;
+}
+
+.btn-conatiner > :first-child{
+    background-color: green;
+    color: white;
+}
+
+.btn-conatiner > button{
+    padding: .3rem 1rem;
+}
+
+.post-content{
+    margin-bottom: 2rem;
+}
+
+.comments > div > div{
+    margin-top: .8rem;
+    padding-left: .5rem;
+}
+
+.make-comment > input{
+    border: none;
+    flex: 1;
+}
+
+.make-comment > input:focus{
+    outline: none;
+}
+
+.make-comment > button{
+    padding: .4rem;
+}
+
+.make-comment{
+    border: 1px solid black;
+    width: 40%;
+    display: flex;
+    padding-left: .4rem;
+    margin-top: 1rem;
+}
+
+.input-field{
+    display: block;
+    width: 100%;
+    padding: .4rem;
+    margin-top: 1rem;
+}
+
+.btn-update{
+    margin-top: 1rem;
+    padding: .4rem 1rem;
+    background-color: green;
+    color: white;
+}
