@@ -1,0 +1,37 @@
+.auth{
+    background-color: #e5e5e5;
+    width: 80%;
+    margin: 0% auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.auth > h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+form{
+    width: 80%;
+    background-color: #e5e5e5;
+    margin-top: 2rem;
+}
+
+form > input{
+    display: block;
+    margin-bottom: 1rem;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn{
+    padding: .7rem 2rem;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
