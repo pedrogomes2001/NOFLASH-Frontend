@@ -48,7 +48,7 @@ const Signup = () => {
                     <label htmlFor="password" className="input-label">Password</label>
                     <input onChange={(e)=> handleChange(e)} id='password' type="password" name='password' className="input-field" />
                 </form>
-                <button onClick={(e)=> signup(e)} className='btn btn-create'>CREATE ACCOUNT</button>
+                <button onClick={(e)=> signup(e)} className='btn btn-create'>Criar Conta</button>
                 <Link to={'/signin'}>
                     <p>Already have an account? Login.</p>
                 </Link>

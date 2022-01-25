@@ -73,20 +73,20 @@ const Post = () => {
 
             {post && 
                 <div className="post sm-80">
-                    <h2>Author: {post.email}</h2>
-                    <p className='post-comment-count'>Comments: {post.comments === null ? 0 : post.comments?.length}</p>
+                    <h2>Autor: {post.email}</h2>
+                    <p className='post-comment-count'>Comentário: {post.comments === null ? 0 : post.comments?.length}</p>
                     <div className="btn-conatiner">
                         {
-                            parseInt(uid) === post.author ?  <Popup trigger={<button>Edit</button>} modal position="right center">
+                            parseInt(uid) === post.author ?  <Popup trigger={<button>Editar</button>} modal position="right center">
                                 <div>
-                                    <label className='input-label' htmlFor="post">Update Post</label>
+                                    <label className='input-label' htmlFor="post">Atualizar Post</label>
                                     <input className='input-field' type="text" value={updatedPost} onChange={(e)=>setUpdatedPost(e.target.value)}/>
-                                    <button className='btn-update' onClick={update}>Update</button>
+                                    <button className='btn-update' onClick={update}>Atualizar</button>
                                 </div>
                           </Popup>:null
                         }
                         {
-                            parseInt(uid) === post.author ? <button onClick={deletecall}>Delete</button>:null
+                            parseInt(uid) === post.author ? <button onClick={deletecall}>Eliminar</button>:null
 
                         }
                     </div>
@@ -95,7 +95,7 @@ const Post = () => {
                     </div>
 
                     <div className="comments">
-                        <h3>Comments:</h3>
+                        <h3>Comentários:</h3>
                         {
                             post.comments && <div>
                                 {
@@ -109,8 +109,8 @@ const Post = () => {
                             </div>
                         }
                         <div className="make-comment">
-                            <input onChange={(e)=>setComment(e.target.value)} type="text" placeholder='Comment'/>
-                            <button onClick={commentcall}>Comment</button>
+                            <input onChange={(e)=>setComment(e.target.value)} type="text" placeholder='...'/>
+                            <button onClick={commentcall}>Comentar</button>
                         </div>
                     </div>
                 </div>

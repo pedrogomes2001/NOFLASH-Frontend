@@ -40,7 +40,7 @@ const Home = () => {
             <Navigation />
             <div className="blog">
                 <input onChange={(e)=> setNewPost(e.target.value)} type="text" placeholder='Blog'/>
-                <button onClick={post}>Blog</button>
+                <button onClick={post}>Postar</button>
             </div>
             {
                 posts && <div className='post-container'>
